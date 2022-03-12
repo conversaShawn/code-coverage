@@ -1,5 +1,5 @@
 {
     "baseUrl": "https://example.cypress.io",
     "retries": 3,
-    "projectId": "CYPRESS_PROJECT_KEY"
+    "projectId": "$CYPRESS_PROJECT_KEY"
 }

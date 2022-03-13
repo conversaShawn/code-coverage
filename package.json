@@ -18,5 +18,8 @@
   "homepage": "https://github.com/conversaShawn/code-coverage#readme",
   "dependencies": {
     "cypress": "^9.5.1"
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "^3.9.12"
   }
 }

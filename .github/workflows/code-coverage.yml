@@ -24,6 +24,7 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
+          config: projectId=${{ secrets.CYPRESS_PROJECT_KEY }}
           record: true
           parallel: true
           tag: code-coverage, parallel

@@ -1,0 +1,16 @@
+{
+  "parent": null,
+  "pid": 59301,
+  "argv": [
+    "/Users/shawn/.nvm/versions/node/v14.17.0/bin/node",
+    "/Users/shawn/node_modules/.bin/mocha"
+  ],
+  "execArgv": [],
+  "cwd": "/Users/shawn/Desktop/Cypress/code_coverage/cc-react",
+  "time": 1647220025790,
+  "ppid": 59300,
+  "coverageFilename": "/Users/shawn/Desktop/Cypress/code_coverage/cc-react/.nyc_output/ded5f1c8-b663-4fd5-bda3-0646e867ff8e.json",
+  "externalId": "",
+  "uuid": "ded5f1c8-b663-4fd5-bda3-0646e867ff8e",
+  "files": []
+}

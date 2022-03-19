@@ -5,7 +5,11 @@
   "main": "index.js",
   "scripts": {
     "ogtest": "echo \"Error: no test specified\" && exit 1",
-    "test": "nyc mocha npm cypress run"
+    "test": "cypress run",
+    "start": "parcel serve cypress/index.html",
+    "react:start": "cd cc-react && npm run start",
+    "cy:open": "cypress open",
+    "dev": "concurrently \"cd cc-react && npm run start\" \"npm run cy:open\""
   },
   "repository": {
     "type": "git",
@@ -18,11 +22,16 @@
   },
   "homepage": "https://github.com/conversaShawn/code-coverage#readme",
   "dependencies": {
+    "@cypress/instrument-cra": "^1.4.0",
     "cypress": "^9.5.1"
   },
   "devDependencies": {
     "@cypress/code-coverage": "^3.9.12",
     "babel-plugin-istanbul": "^6.1.1",
+    "concurrently": "^7.0.0",
     "nyc": "^15.1.0"
+  },
+  "nyc": {
+    "excludeAfterRemap": false
   }
 }

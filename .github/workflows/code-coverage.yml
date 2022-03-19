@@ -24,6 +24,9 @@ jobs:
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
+          start: npm run react:start
+          # quote the url to be safe against YML parsing surprises
+          wait-on: 'http://localhost:3000'
           record: true
           parallel: true
           tag: code-coverage, parallel

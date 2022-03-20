@@ -4,5 +4,5 @@ coverage
 
 # Cypress ignore
 cypress/downloads
-# cypress/screenshots
+cypress/screenshots
 cypress/

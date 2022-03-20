@@ -1,1 +1,8 @@
 node_modules
+.nyc_output
+coverage
+
+# Cypress ignore
+cypress/downloads
+# cypress/screenshots
+cypress/

@@ -3,5 +3,5 @@ node_modules
 coverage
 
 #Cypress
-# cypress/downloads
-# cypress/screenshots
+cypress/downloads
+cypress/screenshots
